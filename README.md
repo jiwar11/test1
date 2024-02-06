@@ -11,3 +11,7 @@ git commit −m " Un message"
 
 git push
 
+##récupérer le fichier
+
+git pull
+
