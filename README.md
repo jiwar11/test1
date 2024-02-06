@@ -6,6 +6,8 @@ Hello Word
 ## Quelques commandes de bases 
 
 git add README.md
+
 git commit −m " Un message"
+
 git push
 
