@@ -17,4 +17,4 @@ git pull
 
 ## Exemple
 
-query = ["gazelle thompson","gazelle grand","monkey","giraffe","lion","leopard","elephant","rhinoceros","chat"]
+query = [ "gazelle thompson", "gazelle grand", "monkey", "giraffe", "lion", "leopard", "elephant", "rhinoceros", "hyppopotame"]
