@@ -30,7 +30,7 @@ server <- function(input, output, session) {
   
   observeEvent(input$Bouttonsort, {
     x <- strsplit(input$mots, ",")[[1]]
-    mots_tri <- paste(sort(x), collapse = ", ")
+    mots_tri <- sort(x)
     liste(mots_tri)
   })
   
