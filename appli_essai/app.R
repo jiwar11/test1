@@ -8,11 +8,10 @@
 #
 
 library(shiny)
-library (stringr)
+library(stringr)
 
-#ui
+# UI
 ui <- fluidPage(
-#titre
   titlePanel("Ranger des mots par ordre alphabétique"),
   sidebarLayout(
     sidebarPanel(
@@ -20,25 +19,25 @@ ui <- fluidPage(
       actionButton("Bouttonsort", "Trier")
     ),
     mainPanel(
-      textOutput("Mots triés")
+      textOutput("mots_tri")
     )
   )
 )
 
-# server
+# Server
 server <- function(input, output, session) {
-  liste <- renderText(
+  liste <- reactiveVal(NULL)
   
   observeEvent(input$Bouttonsort, {
-    x <- strsplit(input$mots,",")
-    mts <- trimws(x)  # Supprimer les espaces autour des mots
-# Convertir les éléments en caractères avant de trier
-    mots_tri <- paste(sort(as.character(mts)), collapse = ", ")
-  }))
+    x <- strsplit(input$mots, ",")[[1]]
+    mots_tri <- paste(sort(x), collapse = ", ")
+    liste(mots_tri)
+  })
   
   output$mots_tri <- renderPrint({
-  liste()
+    print(liste())
   })
 }
+
 # Run the application 
 shinyApp(ui = ui, server = server)
