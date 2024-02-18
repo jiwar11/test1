@@ -1,0 +1,91 @@
+---
+title: "La place de l'Intelligence Artificielle dans notre société "
+author: "Jiwar LAEBOUSSE"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: '3'
+    number_sections: true
+bibliography: "OPEN.bib"
+csl: "isara-iso-690.csl"
+---
+\newpage
+
+# Introduction
+
+  L'intelligence artificielle (IA) joue un rôle de plus en plus crucial dans divers aspects de notre société. L'IA vise à reproduire la pensée humaine en comprenant les mécanismes de l'intelligence humaine. Pour atteindre cet objectif, deux concepts, le machine learning et le deep learning, ont été élaborés et incorporés dans le processus de développement de l'IA (@bercy_infos_intelligence_2023). 
+  
+  Premièrement, le machine learning est une branche de l'IA qui se concentre sur le développement de techniques permettant aux ordinateurs d'apprendre à partir de données. Plutôt que de programmer explicitement un algorithme pour effectuer une tâche particulière, le machine learning permet à un système informatique d'analyser des données, d'identifier des modèles et de prendre des décisions autonomes basées sur ces modèles. Cet aspect est utilisé dans différents domaines tels que domaines tels que la reconnaissance d'image, la traduction automatique, la recommandation de contenu, la prédiction de tendances, et bien d'autres applications. Deuxièmement, le deep learning est une branche plus poussée du machine learning. C'est ce qui permet à la machine de développer des compétences en se basant sur les données forunies à la machine, se passant ainsi de toute intervention humaine.
+
+  Ce rapport examine les différentes utilisation de l'IA par l'humain, les avantages et les inconvénients que ce soit dans le monde du travail ou l'éducation.
+
+# Dans le monde du travail
+
+## Sa place
+
+  L'intelligence artificielle offre des opportunités innovantes dans le domaine de la production. Les entreprises, qu'elles soient grandes, moyennes ou des start-ups, peuvent tirer parti de cette nouvelle technologie pour diverses tâches (@bercy_infos_intelligence_2023) : 
+
+- **Simplifier les tâches complexes et répétitives**, permettant ainsi des gains d'efficacité.
+En effet, l'IA est utilisée pour automatiser des tâches répétitives et routinières, libérant ainsi du temps pour des activités plus créatives et stratégiques.
+- **Accroître l'efficacité des processus et réduire les coûts opérationnels.**
+- **Introduire de nouveaux services grâce à des outils innovants.**
+- **Analyser et exploiter les mégadonnées provenant du Big Data** et ainsi aider à la prise de décision pour les entreprises
+
+Ainsi, elle occupe une place croissante et influente dans le monde du travail, avec des implications significatives dans divers secteurs. Il est crucial pour les individus et les organisations de comprendre et de s'adapter à ces changements pour prospérer dans un environnement professionnel en évolution constante.
+
+## Avantages
+
+  L'IA joue un rôle transformateur dans le monde du travail, apportant des avantages tout en nécessitant une adaptation continue des compétences et des modèles professionnels. Nous avons déjà citer de nombreux avantages ci-dessus. Les plus importants sont :
+
+- **Automatisation des tâches monotones**
+- **Prise de décision améliorée grâce à l'analyse de données**
+
+Mais elle sert également à répondre défis actuel, l’IA peut créer une société plus juste, plus saine et plus inclusive, et à répondre aux besoins des clients "grâce à l’analyse de données et à l’analyse prédictive, les plateformes de données peuvent faire émerger des modèles permettant l’élaboration de plusieurs produits et services afin de mieux satisfaire les clients" (@dahes_intelligence_2023). 
+
+## Inconvénients
+
+  Les implications de l'intelligence artificielle (IA) dans le monde du travail peuvent entraîner certains inconvénients. Premièrement,il y a la perte d'emplois. En effet, l'automatisation et l'adoption de l'IA peuvent conduire à la suppression de certains emplois, en particulier ceux qui impliquent des tâches répétitives et prévisibles. Les machines et les algorithmes peuvent remplacer certaines fonctions, ce qui peut entraîner des pertes d'emplois dans certains secteurs. Ensuite, il y a la transformation des compétences. L'évolution rapide de la technologie nécessite une mise à jour constante des compétences professionnelles. Certains travailleurs peuvent avoir du mal à s'adapter aux nouvelles exigences techniques, ce qui peut entraîner un écart de compétences sur le marché du travail. Ces deux inconvenients peuvent entrainer un stress et une insécurité de l'emploi car il existe une incertitude quant à l'avenir de l'emploi dans un contexte d'automatisation ce qui peut créer du stress parmi les travailleurs pouvant ainsi compromettre la sécurité de l'emploi.
+
+Également, il peut y avoir une surveillance accrue dû à l'utilisation de l'IA pour surveiller les performances des employés, ce qui peut soulever des préoccupations en matière de confidentialité et de respect des droits des travailleurs. La collecte et l'analyse constantes de données peuvent créer un environnement de travail où la vie privée est compromise.
+
+On peut aussi parler de la déshumanisation des interactions professionnelles. L'utilisation généralisée de technologies d'IA, telles que les chatbots ou les systèmes automatisés de service client, peut entraîner une diminution des interactions humaines au sein des entreprises. Cela peut affecter la culture organisationnelle et le bien-être des employés. Cette désuhamination peut entrainer des discrimination involontaire par le biais algorithmique. Les algorithmes d'IA peuvent refléter les biais présents dans les données sur lesquelles ils sont formés, entraînant des discriminations involontaires. Cela peut affecter les opportunités d'emploi, les promotions et d'autres aspects de la vie professionnelle. Selon l’étude « Future of Work », sur l’intelligence artificielle publiée par Malakoff Médéric et le Boston Consulting Group en mars 2018, 39 % des dirigeants et 34 % des salariés jugent que le développement de l’IA va dégrader l’emploi(@tice-education_quel_2020).
+
+Enfin, il y a les inégalités économiques. En effet, si l'adoption de l'IA n'est pas équitablement répartie, elle peut accentuer les inégalités économiques. Les travailleurs qui ne peuvent pas suivre l'évolution rapide des technologies risquent d'être laissés pour compte, créant ainsi une disparité entre ceux qui ont accès aux opportunités liées à l'IA et ceux qui n'en ont pas.
+
+Pour atténuer ces inconvénients, il est essentiel de mettre en place des politiques et des réglementations adaptées, de favoriser l'inclusion numérique, de promouvoir la formation continue et de prendre des mesures pour garantir que les bénéfices de l'IA sont répartis de manière équitable au sein de la société.
+
+# Dans l'éducation
+
+## Dans les écoles et son utilisation par les élèves
+
+  Tout comme dans le domaine du trvail, les IA ont commencé à jouer un rôle croissant, apportant des changements significatifs. Les élèves les utilisent de plus en plus pour les aider à répondre à des problèmes de toutes les matières. La plus connue d'entre elles est chatGPT. *"ChatGPT peut être utilisé comme un outil de recherche conversationnel pour poser des questions, obtenir des explications sur des concepts spécifiques, ou même comme moyen d'améliorer les compétences en écriture. Cependant, il est important de noter que ChatGPT, en tant que modèle génératif, génère des réponses en se basant sur les modèles appris à partir de données d'entraînement, et il peut ne pas toujours fournir des informations exactes ou appropriées."* Ce texte a été genéré par l'IA elle-même.Il en existe différents sortes : certaines réusme des page de texte, d'autres peuvent generer des fiches de révisions ou des code informatique.
+
+## Avantages
+
+  En effet, l'utilisation des IA peuvent représenter de nombreux avantages comme :
+
+- **La personnalisation de l'apprentissage** : les IA sont utilisées pour adapter le contenu éducatif en fonction des besoins individuels des étudiants. Elles analysent les performances passées, les préférences d'apprentissage et les lacunes pour proposer des activités et des ressources personnalisées.
+
+- **Les évaluations automatisées** : les systèmes d'IA peuvent évaluer automatiquement les travaux, quiz et examens, fournissant des retours rapides aux étudiants et permettant aux enseignants de consacrer plus de temps à des activités d'enseignement plutôt qu'à des tâches administratives.
+
+- **Des tuteurs virtuels et assistants intelligents** : Les IA sont utilisées comme tuteurs virtuels pour aider les étudiants dans leur apprentissage, en fournissant des explications, des conseils personnalisés et des exercices supplémentaires. Les assistants virtuels peuvent également aider les enseignants en répondant aux questions courantes des étudiants. De plus, les plateformes d'apprentissage en ligne utilisent des algorithmes d'IA pour recommander des cours, personnaliser les parcours d'apprentissage et améliorer l'expérience des apprenants.
+
+## Inconvénients
+
+  L'intégration de l'IA dans l'éducation apporte des avantages, mais elle est également associée à certains inconvénients et défis. On peut citer par exemple le manque d'interaction humaine. En effet, son utilisation excessive peut entraîner un manque d'interaction humaine dans l'apprentissage, ce qui est crucial pour le développement social et émotionnel des élèves. Il y a également, la dépendance technologique qui a terme, peut être excessive et rendre les écoles vulnérables aux pannes techniques, aux erreurs algorithmiques et aux problèmes de sécurité, affectant ainsi la continuité des activités éducatives. Aussi,bien que la personnalisation de l'apprentissage soit un avantage, une personnalisation excessive basée uniquement sur des algorithmes peut entraîner un cloisonnement excessif des élèves dans des bulles d'information, limitant leur exposition à des perspectives diverses. Enfin,l'évaluation reste limitée à des compétences non cognitives. Les systèmes d'IA ont du mal à évaluer des compétences non cognitives telles que la créativité, la pensée critique, et la collaboration, qui sont essentielles pour la réussite dans le monde réel.
+
+Il est important d'aborder ces inconvénients avec une approche réfléchie, en établissant des politiques éducatives et des normes éthiques appropriées pour garantir que l'IA est utilisée de manière responsable et bénéfique dans le domaine de l'éducation. De plus, la diffusion de fausses images et de fausses informations touchent le plus souvent les plus jeunes, ce qui peut être un réelle danger sur la manipulation d'information. Par exemple, voici une image générée par une IA de Vincent Van Gogh à partir d'un de ses portrait (@m_a_2021):
+
+```{r, out.width = "300px", echo=FALSE}
+knitr::include_graphics("Van_gogh.jpg")
+```
+
+# Conclusion
+
+  En conclusion, l'IA offre de nombreux avantages dans différents domaines, mais son utilisation doit être encadrée par des réglementations éthiques pour minimiser les inconvénients potentiels. L'équilibre entre l'innovation technologique et la protection des droits individuels est essentiel pour une intégration réussie de l'IA dans notre société. En effet, l'adoption de l'IA soulève également des préoccupations, notamment en ce qui concerne la confidentialité des données, la sécurité, l'éthique et l'impact sur l'emploi. Il est important de trouver un équilibre entre l'utilisation de l'IA pour améliorer nos vies et la mise en place de réglementations et de normes éthiques pour garantir son utilisation responsable. De plus, certains outils d'IA, tels que les générateurs de visages, peuvent être utilisés pour créer des images synthétiques réalistes, ce qui soulève des préoccupations quant à la possibilité de créer des photos truquées ou des informations trompeuses.
+
+\newpage
+# Bibliographie
+
+
